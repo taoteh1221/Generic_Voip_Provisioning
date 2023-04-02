@@ -1,0 +1,108 @@
+
+
+Account => SIP Settings:
+
+Register Expiration = 5
+
+Subscribe for MWI enabled
+
+SIP transport = TLS
+
+Local SIP port = 0 (flags using a random port)
+
+
+Account => Codec settings:
+
+SRTP mode = Enabled and enforced
+
+SRTP key length = AES 128&256 bit
+
+
+Account => Call settings:
+
+Enable call waiting = yes
+
+Enable Transfer on 3-way conference hangup
+
+
+Phone settings => general settings:
+
+Enable Use random port
+
+
+Phone settings => call settings:
+
+DISABLE direct ip call mode
+
+ENABLE call waiting
+
+ENABLE transfer
+
+ENABLE conference
+
+
+System settings => security settings => web/ssh access:
+
+Configuration via keypad menu = constriant mode
+
+Permission to install/uninstall apps = require admin password
+
+
+System settings => preferences => lcd & led managment:
+
+ENABLE ALL except missed call backlight / missed call indicator
+
+
+System settings => TR069:
+
+DISABLE TR-069
+
+
+Maintenance => upgrade:
+
+Automatic upgrade = no
+
+ENABLE Upgrade with prompt
+
+
+Applications => programmable key:
+
+Display format = display name
+
+
+Applications => contacts:
+
+Sort phonebook by = first name
+
+Default contacts tab = favorites
+
+Emergency call numbers = 911 (if activated on the SIP line)
+
+
+Android GUI top pull-down interface => settings => basic => security settings => screen lock = password
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

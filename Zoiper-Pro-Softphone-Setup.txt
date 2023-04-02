@@ -1,0 +1,41 @@
+
+
+"Connectivity" Submenu: 
+
+Enable "PUSH proxy" | Enable "Run in background" | "Push transport = TLS".
+
+
+"Advanced" Submenu:
+
+"TLS Ciphers = Use only strong ciphers" | Enable "Start with android".
+
+
+In account settings:
+
+Fill in "voicemail extension"
+
+"Audio codec settings = Enable uLaw / GSM / g729"
+
+"Encryption settings = Enable SRTP"
+
+"Network settings => Transport type = Enable TLS"
+
+"Features => Subscribe for MWI = Before registration"
+
+
+Enable "unrestricted data" AND "Do not disturb access" in android "Apps => Special apps access".
+
+
+Make it so any "battery saver" mode CANNOT stop the app from running, and make sure encryption is enabled on the VOIP SIP account at the service provider.
+
+
+Do NOT enable bluetooth permission in the app (AKA "detect nearby devices" android app permission), otherwise you may get a "normal local hang up" message, canceling outbound calls.
+
+
+Review all the app's permissions in it's settings section.
+
+
+
+
+
+

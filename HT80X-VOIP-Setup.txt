@@ -1,0 +1,68 @@
+
+
+BASIC SETTINGS:
+
+DISABLE TR069 through management interface
+
+Set time zone
+
+
+ADVANCED SETTINGS:
+
+Firmware upgrade and provisioning => BLANK OUT server paths
+
+Firmware upgrade and provisioning => 3CX auto provision = no
+
+Firmware upgrade and provisioning => automatic upgrade = no
+
+Firmware upgrade and provisioning => ENABLE Always skip firmware check
+
+Enable TR-069 = no
+
+BLANK OUT connection request username
+
+Disable direct ip call = yes
+
+Disable weak TLS cipher suites = disable all of the above weak TLS cipher suites
+
+Minimum TLS version = TLS 1.1
+
+Maximum TLS version = unlimited
+
+
+FXS PORT:
+
+SIP transport = TLS
+
+SIP URI scheme when using TLS = sip
+
+NAT traveral = keep-alive
+
+SIP registration = yes
+
+Outgoing call without registration = yes
+
+Check SIP User ID for incoming INVITE = yes
+
+Allow Incoming SIP Messages from SIP Proxy Only = yes
+
+Subscribe for MWI = Yes
+
+SRTP mode = enabled and forced
+
+SRTP key length = AES 128&256 bit
+
+Enable call features = yes
+
+SRTP feature = yes
+
+SRTP per call feature = yes
+
+Direct IP calling feature = no
+
+
+
+
+
+
+
