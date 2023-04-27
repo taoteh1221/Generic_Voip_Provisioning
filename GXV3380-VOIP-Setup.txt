@@ -4,6 +4,8 @@ Account => SIP Settings:
 
 Register Expiration = 5
 
+Enable SIP OPTIONS Keep Alive enabled
+
 Subscribe for MWI enabled
 
 SIP transport = TLS
