@@ -34,13 +34,23 @@ Enable Use random port
 
 Phone settings => call settings:
 
+ENABLE video call
+
 DISABLE direct ip call mode
 
-ENABLE call waiting
+ENABLE call waiting / tone
 
-ENABLE transfer
+ENABLE DND reminder ring
+
+ENABLE transfer / hold target
 
 ENABLE conference
+
+Quick luanch app: voice
+
+Record locally
+
+Call function button display timeout = 0
 
 
 System settings => security settings => web/ssh access:
@@ -48,6 +58,15 @@ System settings => security settings => web/ssh access:
 Configuration via keypad menu = constriant mode
 
 Permission to install/uninstall apps = require admin password
+
+
+System settings => security settings => TLS:
+
+Minimum TLS versio = 1.1
+
+Max TLS version = no limit
+
+Enable weak TLS cipher suites = disable symmetric encryption 
 
 
 System settings => preferences => lcd & led managment:
